@@ -7,7 +7,7 @@ const CounterOperations = () => {
 
   return (
     <div style={{ display: "flex", gap: "1rem", justifyContent:'center' }}>
-      <button onClick={increaseCounterHandler}>inc</button>
+      <button onClick={increaseCounterHandler}>increase</button>
       <button onClick={resetCounterHandler}>reset</button>
     </div>
   );

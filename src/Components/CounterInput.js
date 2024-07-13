@@ -27,6 +27,7 @@ const CounterInput = () => {
       />
       <button onClick={setHandler}>set</button>
 
+      <span> Live counter</span>
       <input
         placeholder="live update"
         type="number"
