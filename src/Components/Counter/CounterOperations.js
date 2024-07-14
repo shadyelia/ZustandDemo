@@ -1,5 +1,5 @@
 import React from "react";
-import { useCounterStore } from "../appStore";
+import { useCounterStore } from "../../appStore";
 
 const CounterOperations = () => {
   const increaseCounterHandler = useCounterStore((state) => state.increase);

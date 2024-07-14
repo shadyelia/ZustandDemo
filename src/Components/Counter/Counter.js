@@ -1,4 +1,4 @@
-import { useCounterStore } from "../appStore";
+import { useCounterStore } from "../../appStore";
 import CounterInput from "./CounterInput";
 import CounterOperations from "./CounterOperations";
 

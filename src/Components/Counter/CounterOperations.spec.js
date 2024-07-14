@@ -1,7 +1,7 @@
 import {  act, fireEvent, render, screen } from "@testing-library/react";
 import '@testing-library/jest-dom'
 import CounterOperations from "./CounterOperations";
-import { useCounterStore } from "../appStore";
+import { useCounterStore } from "../../appStore";
 
 describe("CounterOperations tests", () => {
 

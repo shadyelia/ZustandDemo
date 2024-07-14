@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useCounterStore } from "../appStore";
+import { useCounterStore } from "../../appStore";
 
 const CounterInput = () => {
   const [counter, setCounter] = useState(0);
