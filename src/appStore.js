@@ -10,7 +10,7 @@ export const useCounterStore = create(
       updateCounter: (counter) => set({ counter }),
     }),
     {
-      name: 'counter', // name of the item in the storage (must be unique)
+      name: 'counter-storage', // name of the item in the storage (must be unique)
       //storage: createJSONStorage(() => sessionStorage), // (optional) by default, 'localStorage' is used
     },
   )
